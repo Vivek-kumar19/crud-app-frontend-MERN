@@ -1,0 +1,43 @@
+.addUser{
+    width: 25%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #d6d5d5;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.addUser form .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 4px 0 ;
+    font-size: 18px;
+}
+.addUser form .inputGroup label{
+   margin-bottom: 5px;
+}
+.addUser form .inputGroup input{
+   margin-bottom: 5px;
+   height: 35px;
+   font-size: 16px;
+   outline: none;
+   border: 1px solid #c5c5c5;
+   padding: 0 5px;
+}
+.submitBtn{
+    color: white;
+    background: darkblue;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.addUser a{
+    text-decoration: none;
+}
